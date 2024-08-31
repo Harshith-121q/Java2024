@@ -1,4 +1,4 @@
-class StudentNotFoundException extends Exception{
+class StudentNotFoundException extends Exception [or] RuntimeException{
   public StudentNotFoundException(String msg){
     super(msg);
   }
